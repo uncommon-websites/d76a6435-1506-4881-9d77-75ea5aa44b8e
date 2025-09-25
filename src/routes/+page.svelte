@@ -83,5 +83,22 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Stop losing patients to prior authorization delays"
+	subtitle="Start approving treatments 10x faster"
+	description="Join 500+ specialty clinics already using our platform to eliminate paperwork delays and get patients the care they need. Most authorizations now complete in under 2 hours instead of 2 weeks."
+	imageSrc="/generated/image-a-cheerful-healthcare-administrator-stan.webp"
+	callsToAction={[
+		{
+			href: "/demo",
+			label: "See it in action",
+			variant: "primary"
+		},
+		{
+			href: "/contact",
+			label: "Talk to our team",
+			variant: "secondary"
+		}
+	]}
+/>

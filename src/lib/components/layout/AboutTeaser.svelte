@@ -21,9 +21,9 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Alex Morgan",
+		name: "Dr. Sarah Chen",
 		role: "Founder & CEO",
-		image: "https://www.unc.mn/image-placeholder.svg"
+		image: "/generated/image-a-professional-headshot-of-a-healthcare-.webp"
 	};
 </script>
 
@@ -32,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"After watching too many patients wait weeks for life-changing treatments while buried in paperwork, I knew we could do better. Healthcare shouldn't be a bureaucratic maze—it should be about healing."`}
 			/>
 
 			<!-- Team Member & CTA Section -->
