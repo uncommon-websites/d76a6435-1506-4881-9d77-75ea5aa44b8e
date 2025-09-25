@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	title="Faster approvals. Better patient care."
+	subtitle="End the paperwork chase and start treatment sooner."
+	imageSrc="/generated/image-a-healthcare-administrator-working-effic.webp"
+	centered={false}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by healthcare leaders" 
+	logoUrls={[
+		'https://cdn.brandfetch.io/kaiserpermanente.org/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/clevelandclinic.org/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/mayoclinic.org/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/johnshopkins.edu/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
